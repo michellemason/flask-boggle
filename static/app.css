@@ -1,0 +1,35 @@
+.board {
+    border-collapse: collapse;
+    margin: 25px 25px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.board tr {
+    background-color: #0e77bd;
+    color: #ffffff;
+    text-align: center;
+}
+
+.board th,
+.board td {
+    padding: 5px 5px;
+}
+
+.board tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.board tbody tr:nth-of-type(even) {
+    background-color: #336b91;
+}
+
+.board tbody tr:last-of-type {
+    border-bottom: 2px solid #1c3b50;
+}
+
+form {
+    margin: 25px 25px;
+}
